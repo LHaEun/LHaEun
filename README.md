@@ -16,6 +16,11 @@
 >소스코드에 숨어있는 멀웨어를 탐지하여 사용자가 이를 피해갈 수 있게 하여 안전한 Git Hub 사용으로 이어질 수 있다.
 
 # 개발 과정
+홈페이지(디자인은 추후 변경될 수 있습니다.)
+![KakaoTalk_20200428_182236656](https://user-images.githubusercontent.com/59590254/80516012-cbd85c80-89bd-11ea-9a95-b7039c7f8186.png)
+
+
+
 >악성코드 자동화 탐지툴을 만들기 위해서 사용자로부터 받은 파일의 로그를 읽고 저장하고 보기 위해 VM server에 ELK를 설치하고 서로 연동했다. 
 >logstash를 이용해 로그를 가져와서 Elasticsearch로 데이터를 보낸 후 Elasticsearch안에 구현한 DB에 저장 후 YARA rule로 검색한다. 이때 Kibana를 이용해 로그를 확인한다. 
 
